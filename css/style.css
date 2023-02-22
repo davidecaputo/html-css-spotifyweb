@@ -120,6 +120,10 @@ a{
     border: 1px solid red;
 }
 
+.row{
+    gap: 15px;
+}
+
 .col{
     width: calc(100% / 6);
 }
