@@ -7,6 +7,7 @@
 :root{
     --white: #ffffff;
     --black: #000000;
+    --light-grey: #85878b;
     --bgc-player: #282828;
     --bgc-content: #141922;
 }
@@ -45,6 +46,10 @@ main{
     justify-content: flex-end;
 }
 
+.js-center{
+    justify-content: center;
+}
+
 .align{
     align-items: center;
 }
@@ -54,6 +59,14 @@ main{
 a{
     text-decoration: none;
     color: var(--white);
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.text-grey{
+    color: var(--light-grey);
 }
 
 .sidebar{
@@ -81,11 +94,17 @@ a{
     border-radius: 20px;
     border: 1px solid var(--white);
     padding: 10px 40px;
-    text-transform: uppercase;
     margin-right: 20px;
 }
 
 .container{
     color: var(--white);
     margin-top: 70px;
+    padding: 20px;
+}
+
+.container nav a{
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: bold;
 }
