@@ -95,7 +95,7 @@ a{
     right: 0;
     width: calc(100% - 240px);
     height: 70px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .button{
@@ -134,4 +134,9 @@ a{
 
 .subtitle{
     font-size: 10px;
+}
+
+.popolari .image{
+    border-radius: 50%;
+    overflow: hidden;
 }
