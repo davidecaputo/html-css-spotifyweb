@@ -4,6 +4,43 @@
     box-sizing: border-box;
 }
 
+:root{
+    --black: #000000;
+    --bgc-player: #282828;
+    --bgc-content: #141922;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--black);
+}
+
+main{
+    width: 100%;
+    height: calc(100% - 80px);
+}
+
+.player{
+    width: 100%;
+    height: 80px;
+    background-color: var(--bgc-player);
+}
+
+.sidebar{
+    width: 200px;
+    height: 100%;
+    background-color: red;
+}
+
+.content{
+    width: calc(100% - 200px);
+    height:100%;
+    background-color: var(--bgc-content);
+    overflow: auto;
 }
