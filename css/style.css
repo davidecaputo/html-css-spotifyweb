@@ -69,6 +69,14 @@ a{
     color: var(--light-grey);
 }
 
+.text-center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
 .sidebar{
     width: 240px;
     height: 100%;
@@ -106,5 +114,20 @@ a{
 .container nav a{
     margin-right: 20px;
     font-size: 12px;
-    font-weight: bold;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+.col{
+    width: calc(100% / 6);
+}
+
+.col img{
+    width: 100%;
+}
+
+.subtitle{
+    font-size: 10px;
 }
