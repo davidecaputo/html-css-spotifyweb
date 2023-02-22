@@ -51,6 +51,11 @@ main{
 
 /* general */
 
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
 .sidebar{
     width: 240px;
     height: 100%;
