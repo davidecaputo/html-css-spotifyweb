@@ -5,6 +5,7 @@
 }
 
 :root{
+    --white: #ffffff;
     --black: #000000;
     --bgc-player: #282828;
     --bgc-content: #141922;
@@ -49,10 +50,15 @@ main{
 }
 
 #upgrade{
-    display: fixed;
+    position: fixed;
     top: 0;
     right: 0;
-    width: 100%;
+    width: calc(100% - 240px);
     height: 70px;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container{
+    color: var(--white);
+    margin-top: 70px;
 }
