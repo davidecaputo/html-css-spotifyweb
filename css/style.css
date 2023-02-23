@@ -161,10 +161,25 @@ section.recently > h2{
 /* layout responsive */
 
 @media screen and (max-width: 576px){
+    .sidebar{
+        width: 50px;
+        height: 100%;
+    }
+
+    .content{
+        width: calc(100% - 50px);
+        height: 100%;
+    }
+
+    #upgrade{
+        width: calc(100% - 50px);
+    }
 }
 
-@media screen and (min-width: 576px){
-
+@media screen and (max-width: 768px){
+    .col{
+        width: calc(100% / 2 - 7.5px);
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
