@@ -40,6 +40,7 @@ main{
 
 .d-flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .js{
@@ -125,23 +126,23 @@ a{
 }
 
 .col{
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 12.5px);
 }
 
 .col img{
     width: 100%;
 }
 
-.col h5{
-    padding: 10px 0px;
+.container h2{
+    padding: 20px 0px 8px;
 }
 
 section.recently > h2{
     padding: 30px 0px;
 }
 
-.container h2{
-    padding: 20px 0px 8px;
+.col h5{
+    padding: 10px 0px;
 }
 
 .subtitle{
@@ -163,15 +164,12 @@ section.recently > h2{
 }
 
 @media screen and (min-width: 576px){
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .col{
-        width: calc(100% / 4 - 30px);
-    }
-
-    .d-flex{
-        flex-wrap: wrap;
+        width: calc(100% / 4 - 11.25px);
     }
 }
 
