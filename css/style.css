@@ -8,6 +8,7 @@
     --white: #ffffff;
     --black: #000000;
     --light-grey: #85878b;
+    --line-color: #b3ff30;
     --bgc-player: #282828;
     --bgc-content: #141922;
 }
@@ -55,7 +56,7 @@ main{
     align-items: center;
 }
 
-/* hover */
+/* hover e after */
 
 .effect:hover{
     transform: scale(1);
@@ -65,11 +66,11 @@ a.active, a:hover{
     color: var(--white);
 }
 
-.container nav a:hover:after{
+.container nav a:hover:after,.container nav a.active:after{
     content: '';
     display: block;
-    border-bottom: 1px solid yellow;
-    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--line-color);
+    padding-bottom: 0.5rem;
     width: 50%;
     margin: auto;
 }
