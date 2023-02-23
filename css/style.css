@@ -140,3 +140,9 @@ a{
     border-radius: 50%;
     overflow: hidden;
 }
+
+@media screen and (max-height: 150px){
+    #upgrade{
+        display: none;
+    }
+}
