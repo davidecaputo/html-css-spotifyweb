@@ -44,7 +44,7 @@ main{
     flex-wrap: wrap;
 }
 
-.js{
+.js-end{
     justify-content: flex-end;
 }
 
@@ -54,6 +54,7 @@ main{
 
 .align{
     align-items: center;
+    align-content: center;
 }
 
 /* hover e after */
@@ -75,6 +76,13 @@ a.active, a:hover{
     margin: auto;
 }
 
+.sidebar-top .start a:hover, .sidebar-top .start a.active{
+    border-left: 2px solid var(--line-color);
+}
+
+.sidebar-top .start a:hover img{
+    opacity: 1;
+}
 /* general */
 
 a{
@@ -101,6 +109,7 @@ a{
 .sidebar{
     width: 240px;
     height: 100%;
+    overflow: hidden;
 }
 
 .content{
@@ -185,6 +194,40 @@ section.recently > h2{
 .popolari .image{
     border-radius: 50%;
     overflow: hidden;
+}
+
+.sidebar .logo{
+    padding: 15px 20px;
+}
+
+.sidebar-top .logo img{
+    width: 60%;
+}
+
+.sidebar-top .small-logo{
+    display: none;
+}
+
+.sidebar-top .start img{
+    width: 20px;
+    opacity: 0.5;
+    margin-right: 5px;
+}
+
+.start a{
+    padding-left: 20px;
+}
+
+.sidebar-top .start a{
+    border-left: 2px solid transparent;
+}
+
+.start{
+    padding-bottom: 20px;
+}
+
+.sidebar-top .start li{
+    padding-top: 10px;
 }
 
 /* layout responsive */
