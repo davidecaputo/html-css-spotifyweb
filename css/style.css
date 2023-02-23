@@ -55,6 +55,25 @@ main{
     align-items: center;
 }
 
+/* hover */
+
+.effect:hover{
+    transform: scale(1);
+}
+
+a.active, a:hover{
+    color: var(--white);
+}
+
+.container nav a:hover:after{
+    content: '';
+    display: block;
+    border-bottom: 1px solid yellow;
+    padding-bottom: 1rem;
+    width: 50%;
+    margin: auto;
+}
+
 /* general */
 
 a{
@@ -106,6 +125,11 @@ a{
     margin-right: 20px;
 }
 
+.effect{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
 .container{
     color: var(--white);
     margin-top: 70px;
@@ -114,15 +138,6 @@ a{
 
 .menu{
     min-height: 32px;
-}
-
-.container nav a:hover:after{
-    content: '';
-    display: block;
-    border-bottom: 1px solid yellow;
-    padding-bottom: 1rem;
-    width: 50%;
-    margin: auto;
 }
 
 .container nav a{
