@@ -130,6 +130,10 @@ ul{
     font-weight: bold;
 }
 
+.v-align-middle{
+    vertical-align: middle;
+}
+
 .sidebar{
     width: 240px;
     height: 100%;
@@ -306,6 +310,15 @@ section.recently > h2{
 
 .sidebar-bottom .download img{
     opacity: 0.5;
+}
+
+.player .brano, .player .volume{
+    width: 240px;
+    padding: 10px;
+}
+
+.player .controller{
+    width: 40%;
 }
 
 /* layout responsive */
