@@ -14,7 +14,7 @@
 <body>
     <div class="wrapper">
         <main class="d-flex">
-            <div class="sidebar">
+            <div class="sidebar d-flex flex-col js-between bold">
                 <div class="sidebar-top">
                     <div class="logo">
                         <img src="./img/logo.svg" alt="Logo">
@@ -43,7 +43,7 @@
                         </ul>
                     </div>
                     <div class="playlist">
-                        <span class="text-white uppercase bold">Playlist</span>
+                        <span class="text-white uppercase">Playlist</span>
                         <a href="#" class="plus d-flex align">
                             <div class="square d-flex align js-center">
                                 <i class="fa-solid fa-plus"></i>
@@ -61,7 +61,18 @@
                         </ul>
                     </div>
                 </div>
-                <div class="sidebar-bottom"></div>
+                <div class="sidebar-bottom">
+                    <div class="download d-flex align">
+                        <img src="./img/download.svg" alt="download">
+                        <a href="#" class="text-grey">Installa app</a>
+                    </div>
+                    <div class="user d-flex align">
+                        <div class="user-image">
+                            <img src="./img/profile.svg" alt="profile">
+                        </div>
+                        <a href="#">John Doe</a>
+                    </div>
+                </div>
             </div>
             <div class="content">
                 <div id="upgrade" class="d-flex js-end align">

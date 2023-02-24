@@ -44,6 +44,14 @@ main{
     flex-wrap: wrap;
 }
 
+.flex-col{
+    flex-flow: column nowrap;
+}
+
+.js-between{
+    justify-content: space-between;
+}
+
 .js-end{
     justify-content: flex-end;
 }
@@ -80,7 +88,7 @@ a.active, a:hover{
     border-left: 2px solid var(--line-color);
 }
 
-.sidebar-top .start a:hover img{
+.sidebar-top .start a:hover img, .sidebar-bottom .download a:hover img{
     opacity: 1;
 }
 
@@ -263,6 +271,37 @@ section.recently > h2{
 
 .sidebar-top .playlist li{
     padding-top: 18px;
+}
+
+.sidebar-bottom{
+    padding: 0px 20px;
+}
+
+.sidebar-bottom .download{
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.sidebar-bottom img{
+    width: 24px;
+    height: 20px;
+}
+
+.sidebar-bottom .download img, .sidebar-bottom .user-image{
+    margin-right: 10px;
+}
+
+.sidebar-bottom .download, .sidebar-bottom .user{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.sidebar-bottom .user-image{
+    background-color: var(--light-grey);
+    border-radius: 50%;
+}
+
+.sidebar-bottom .download img{
+    opacity: 0.5;
 }
 
 /* layout responsive */
