@@ -83,6 +83,14 @@ a.active, a:hover{
 .sidebar-top .start a:hover img{
     opacity: 1;
 }
+
+.sidebar-top .playlist a.plus:hover .square{
+    background-color: var(--white);
+}
+
+.sidebar-top .playlist a.plus:hover span{
+    color: var(--white);
+}
 /* general */
 
 a{
@@ -92,6 +100,10 @@ a{
 
 .uppercase{
     text-transform: uppercase;
+}
+
+.text-white{
+    color: var(--white);
 }
 
 .text-grey{
@@ -196,6 +208,8 @@ section.recently > h2{
     overflow: hidden;
 }
 
+/* sidebar */
+
 .sidebar .logo{
     padding: 15px 20px;
 }
@@ -209,7 +223,7 @@ section.recently > h2{
 }
 
 .sidebar-top .start img{
-    width: 20px;
+    width: 30px;
     opacity: 0.5;
     margin-right: 5px;
 }
@@ -223,11 +237,32 @@ section.recently > h2{
 }
 
 .start{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .sidebar-top .start li{
     padding-top: 10px;
+}
+
+.sidebar-top .playlist{
+    padding: 10px 20px;
+}
+
+.sidebar-top .playlist .square{
+    width: 40px;
+    height: 40px;
+    color: var(--black);
+    background-color: var(--light-grey);
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.sidebar-top .playlist .plus{
+    padding-top: 10px;
+}
+
+.sidebar-top .playlist li{
+    padding-top: 18px;
 }
 
 /* layout responsive */
