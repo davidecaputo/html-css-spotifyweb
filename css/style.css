@@ -60,6 +60,10 @@ main{
     justify-content: center;
 }
 
+.js-around{
+    justify-content: space-around;
+}
+
 .align{
     align-items: center;
     align-content: center;
@@ -73,6 +77,17 @@ main{
 
 a.active, a:hover{
     color: var(--white);
+}
+
+.player .brano i:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+
+.player .brano .artist:hover{
+    color: var(--white);
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .container nav a:hover:after,.container nav a.active:after{
