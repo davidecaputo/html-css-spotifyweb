@@ -340,6 +340,10 @@ section.recently > h2{
     width: 40%;
 }
 
+.player .controller, .player .volume{
+    color: var(--white);
+}
+
 /* brano */
 
 .player .brano img{
