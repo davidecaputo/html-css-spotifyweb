@@ -48,6 +48,10 @@ main{
     flex-flow: column nowrap;
 }
 
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+
 .js-between{
     justify-content: space-between;
 }
