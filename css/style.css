@@ -56,16 +56,16 @@ main{
     justify-content: space-between;
 }
 
+.js-around{
+    justify-content: space-around;
+}
+
 .js-end{
     justify-content: flex-end;
 }
 
 .js-center{
     justify-content: center;
-}
-
-.js-around{
-    justify-content: space-around;
 }
 
 .align{
@@ -118,6 +118,11 @@ a.active, a:hover{
 .sidebar-top .playlist a.plus:hover span{
     color: var(--white);
 }
+
+input[type="range"]:hover::-webkit-slider-thumb{
+    background: white;
+}
+
 /* general */
 
 a{
@@ -356,6 +361,31 @@ section.recently > h2{
 
 .artist{
     font-size: 10px;
+}
+
+/* controller */
+
+.controller .controller-up{
+    width: 40%;
+    margin: 0px auto;
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    width: 60%;
+    height: 5px;
+    border-radius: 10px;
+    background: var(--light-grey);
+    cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
 }
 
 /* layout responsive */
