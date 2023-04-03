@@ -96,6 +96,7 @@ a.active, a:hover{
 
 .container nav a:hover:after, .container nav a.active:after{
     display: block;
+    content: '';
     border-bottom: 1px solid var(--line-color);
     padding-bottom: 0.5rem;
     width: 50%;
