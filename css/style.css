@@ -94,13 +94,24 @@ a.active, a:hover{
     cursor: pointer;
 }
 
-.container nav a:hover:after,.container nav a.active:after{
-    content: '';
+.container nav a:hover:after, .container nav a.active:after{
     display: block;
     border-bottom: 1px solid var(--line-color);
     padding-bottom: 0.5rem;
     width: 50%;
     margin: auto;
+}
+
+.container .col .song-image::after{
+    font-family: "Font Awesome 5 Free";
+    content: '\f144';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .sidebar-top .start a:hover, .sidebar-top .start a.active{
@@ -213,6 +224,10 @@ ul{
 
 .col{
     width: calc(100% / 6 - 12.5px);
+}
+
+.song-image{
+    position: relative;
 }
 
 .col img{
